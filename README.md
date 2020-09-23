@@ -5,10 +5,15 @@ DevSound is a sound driver for the Game Boy which supports pulse width manipulat
 
 ## Windows
 1. Grab the [RGBDS binaries](https://github.com/rednex/rgbds/releases). If you already have them, you can skip this step.
-3. Run build.bat. If that doesn't work, try either adding the RGBASM binaries to your PATH or copying them to the repository directory.
+2. Run build.bat. If that doesn't work, try either adding the RGBASM binaries to your PATH or copying them to the repository directory.
 
 ## Linux
-1. Install [RGBDS](https://github.com/rednex/rgbds). If RGBDS is already installed, skip this step.
+1. Install [RGBDS](https://github.com/rednex/rgbds). If RGBDS is already installed, you can skip this step.
+2. Run `make`.
+
+## macOS (Untested)
+1. Download Xcode from the Mac App Store. If Xcode is already installed, you can skip this step.
+2. Install [RGBDS](https://github.com/rednex/rgbds). If RGBDS is already installed, you can skip this step.
 3. Run `make`.
 
 # Adding DevSound to your project
